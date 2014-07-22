@@ -1,0 +1,20 @@
+{
+  "name": "merlin-mongo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/tape ./test/*.js | ./node_modules/.bin/tspec"
+  },
+  "author": "Robert Hurst <robertwhurst@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "event-stream": "^3.1.7",
+    "mongodb": "^1.4.7",
+    "type-guard": "^0.1.1"
+  },
+  "devDependencies": {
+    "tape": "^2.12.3",
+    "tap-spec": "^0.1.8"
+  }
+}
